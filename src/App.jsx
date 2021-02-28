@@ -1,5 +1,6 @@
+import { useState } from 'react';
 import styled from 'styled-components';
-import { Button } from './components';
+import { Button, Modal } from './components';
 import './App.css';
 
 const Container = styled.div`
@@ -11,10 +12,17 @@ const Container = styled.div`
 `;
 
 const App = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal((prev) => !prev);
+  };
+
   return (
     <>
       <Container>
-        <Button>This is a modal</Button>
+        <Button onClick={openModal}>This is a modal</Button>
+        <Modal showModal={showModal} setShowModal={setShowModal} />
       </Container>
     </>
   );
