@@ -22,7 +22,11 @@ const App = () => {
     <>
       <Container>
         <Button onClick={openModal}>This is a modal</Button>
-        <Modal showModal={showModal} setShowModal={setShowModal} />
+        <Modal
+          showModal={showModal}
+          setShowModal={setShowModal}
+          openModal={openModal}
+        />
       </Container>
       <GlobalStyle />
     </>

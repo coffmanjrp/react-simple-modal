@@ -18,10 +18,12 @@ const Btn = styled.button`
   }
 `;
 
-const Button = ({ children, onClick }) => {
+const Button = ({ children, className, onClick }) => {
   return (
     <>
-      <Btn onClick={onClick}>{children}</Btn>
+      <Btn className={className} onClick={onClick}>
+        {children}
+      </Btn>
     </>
   );
 };
