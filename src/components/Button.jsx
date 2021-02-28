@@ -12,6 +12,8 @@ const Btn = styled.button`
   cursor: pointer;
   &:active {
     transform: scale(0.98);
+  }
+  &:focus {
     outline: none;
   }
 `;

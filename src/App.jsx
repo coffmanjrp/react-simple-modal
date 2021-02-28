@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styled from 'styled-components';
+import GlobalStyle from './globalStyle';
 import { Button, Modal } from './components';
-import './App.css';
 
 const Container = styled.div`
   display: flex;
@@ -24,6 +24,7 @@ const App = () => {
         <Button onClick={openModal}>This is a modal</Button>
         <Modal showModal={showModal} setShowModal={setShowModal} />
       </Container>
+      <GlobalStyle />
     </>
   );
 };
