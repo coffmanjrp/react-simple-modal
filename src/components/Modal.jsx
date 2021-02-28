@@ -33,6 +33,7 @@ const ModalImg = styled.img`
   height: 100%;
   background-color: #000;
   border-radius: 10px 0 0 10px;
+  object-fit: cover;
 `;
 
 const ModalContent = styled.div`
