@@ -35,5 +35,6 @@ Enjoy!
 ## Stack
 
 - [React](https://reactjs.org/)
+- [react-spring](https://react-spring.io/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [styled components](https://styled-components.com/)
