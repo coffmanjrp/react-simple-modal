@@ -2,8 +2,6 @@
 
 A simple modal function made by React.
 
-[DEMO](https://jolly-murdock-1f17ff.netlify.app/)
-
 ![React Simple Modal](https://res.cloudinary.com/coffmanjrp-dev/image/upload/v1643309036/coffmanjrp.io/react_simple_modal_6dc22c2b92.png)
 
 ## How to start
